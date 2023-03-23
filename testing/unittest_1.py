@@ -29,7 +29,7 @@ class NearestExitTests(unittest.TestCase):
     # We can now group several test case functions together
     # note the modified syntax
     # instead of assert, we use self.assertEqual, and the statement is wrapped in brackets
-    # we don't use a comparison, just the function to test, the expected output and the message
+    # we don't use a comparison, just the function to test with any function arguments, the expected output and an optional message
     def test_row_1(self):
         self.assertEqual(get_nearest_exit(1), 'front', 'The nearest exit to row 1 is in the front!')
 

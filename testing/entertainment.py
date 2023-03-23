@@ -1,8 +1,18 @@
 # companion file for unittest_2, unittest_3
 
+def regional_jet():
+    print('This is a regional jet...')
+    return True
+
+
 def get_daily_movie():
     print('Retrieving the movie set to play on today\'s flight...')
     return 'Parasite'
+
+
+def get_daily_movies():
+    print('Retrieving the movie set to play on today\'s flight...')
+    return ['Parasite', 'Nomadland', 'Roma', 'Black Widow', 'Spiral']
 
 
 def get_licensed_movies():
